@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS tumortrace_db;
+USE tumortrace_db;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS patients (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    tumor_type VARCHAR(255) NOT NULL,
+    confidence VARCHAR(50) NOT NULL,
+    date VARCHAR(50) NOT NULL
+);

@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ML model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pb
+*.onnx
+
+# Dataset (not for public distribution)
+Kaggle Dataset/
+data/
+datasets/
+
+# Logs
+*.log
+robocopy_log.txt
+
+# IDE/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+.project
+.pydevproject
+.settings/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
